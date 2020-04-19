@@ -15,4 +15,10 @@ return [
     'Laminas\Router',
     'Laminas\Validator',
     'Application',
+	'Fojiaojielv',
+	'Foxuedacidian',
+	'Mizongdaocidiguanglun',
+	'Putidaocidiguanglun',
+	'Qidayuanqilun',
+	'Yuqieshidilun',
 ];

@@ -51,6 +51,11 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'Y' => 
+        array (
+            'Yuqieshidilun\\' => 14,
+            'YuqieshidilunTest\\' => 18,
+        ),
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
@@ -77,8 +82,15 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
             'Symfony\\Component\\Console\\' => 26,
             'SanSessionToolbar\\' => 18,
         ),
+        'Q' => 
+        array (
+            'Qidayuanqilun\\' => 14,
+            'QidayuanqilunTest\\' => 18,
+        ),
         'P' => 
         array (
+            'Putidaocidiguanglun\\' => 20,
+            'PutidaocidiguanglunTest\\' => 24,
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Server\\' => 16,
@@ -89,6 +101,11 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
             'Psr\\Cache\\' => 10,
             'Prophecy\\' => 9,
             'PackageVersions\\' => 16,
+        ),
+        'M' => 
+        array (
+            'Mizongdaocidiguanglun\\' => 22,
+            'MizongdaocidiguanglunTest\\' => 26,
         ),
         'L' => 
         array (
@@ -106,7 +123,6 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
             'Laminas\\Stratigility\\' => 21,
             'Laminas\\Stdlib\\' => 15,
             'Laminas\\Soap\\' => 13,
-            'Laminas\\SkeletonInstaller\\' => 26,
             'Laminas\\Session\\' => 16,
             'Laminas\\ServiceManager\\Di\\' => 26,
             'Laminas\\ServiceManager\\' => 23,
@@ -184,6 +200,13 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
         array (
             'Gitonomy\\Git\\' => 13,
         ),
+        'F' => 
+        array (
+            'Foxuedacidian\\' => 14,
+            'FoxuedacidianTest\\' => 18,
+            'Fojiaojielv\\' => 12,
+            'FojiaojielvTest\\' => 16,
+        ),
         'D' => 
         array (
             'Doctrine\\Persistence\\' => 21,
@@ -213,6 +236,14 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'Yuqieshidilun\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Yuqieshidilun/src',
+        ),
+        'YuqieshidilunTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Yuqieshidilun/test',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -282,6 +313,22 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
         array (
             0 => __DIR__ . '/..' . '/san/san-session-toolbar/src',
         ),
+        'Qidayuanqilun\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Qidayuanqilun/src',
+        ),
+        'QidayuanqilunTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Qidayuanqilun/test',
+        ),
+        'Putidaocidiguanglun\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Putidaocidiguanglun/src',
+        ),
+        'PutidaocidiguanglunTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Putidaocidiguanglun/test',
+        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -322,6 +369,14 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
         'PackageVersions\\' => 
         array (
             0 => __DIR__ . '/..' . '/ocramius/package-versions/src/PackageVersions',
+        ),
+        'Mizongdaocidiguanglun\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Mizongdaocidiguanglun/src',
+        ),
+        'MizongdaocidiguanglunTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Mizongdaocidiguanglun/test',
         ),
         'Laminas\\ZendFrameworkBridge\\' => 
         array (
@@ -378,10 +433,6 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
         'Laminas\\Soap\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-soap/src',
-        ),
-        'Laminas\\SkeletonInstaller\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laminas/laminas-skeleton-installer/src',
         ),
         'Laminas\\Session\\' => 
         array (
@@ -662,6 +713,22 @@ class ComposerStaticInit7cb26edbfec2fbdab31803d97c710dd5
         'Gitonomy\\Git\\' => 
         array (
             0 => __DIR__ . '/..' . '/gitonomy/gitlib/src/Gitonomy/Git',
+        ),
+        'Foxuedacidian\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Foxuedacidian/src',
+        ),
+        'FoxuedacidianTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Foxuedacidian/test',
+        ),
+        'Fojiaojielv\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Fojiaojielv/src',
+        ),
+        'FojiaojielvTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Fojiaojielv/test',
         ),
         'Doctrine\\Persistence\\' => 
         array (

@@ -188,7 +188,7 @@ final class Versions
   'webimpress/safe-writer' => '2.0.1@d6e879960febb307c112538997316371f1e95b12',
   'webmozart/assert' => '1.7.0@aed98a490f9a8f78468232db345ab9cf606cf598',
   'zendframework/zendpdf' => '2.0.2@041f90c339cff63a3c4d03a28ef1ea5188059793',
-  'laminas/laminas-mvc-skeleton' => 'dev-master@26b6e06b107fa40f9678593203023e0a5a693618',
+  'laminas/laminas-mvc-skeleton' => 'dev-master@f43a0ad1ca16d3c4efb4d112682c537e32f38639',
 );
 
     private function __construct()

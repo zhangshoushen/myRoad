@@ -1,9 +1,13 @@
 <?php
 /**
 */
+declare(strict_types=1);
+
 namespace Application;
+
 use Laminas\Router\Http\Literal;
 use Laminas\Router\Http\Segment;
+
 return [
         'routes' => [
             'home' => [
