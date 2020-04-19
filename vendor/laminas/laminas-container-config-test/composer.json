@@ -1,0 +1,70 @@
+{
+    "name": "laminas/laminas-container-config-test",
+    "description": "Mezzio PSR-11 container configuration tests",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "laminas",
+        "mezzio",
+        "container",
+        "test",
+        "psr-11"
+    ],
+    "homepage": "https://laminas.dev",
+    "support": {
+        "docs": "https://docs.laminas.dev/laminas-container-config-test/",
+        "issues": "https://github.com/laminas/laminas-container-config-test/issues",
+        "source": "https://github.com/laminas/laminas-container-config-test",
+        "rss": "https://github.com/laminas/laminas-container-config-test/releases.atom",
+        "chat": "https://laminas.dev/chat",
+        "forum": "https://discourse.laminas.dev"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "laminas/laminas-zendframework-bridge": "^1.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "laminas/laminas-auradi-config": "^1.0.1",
+        "laminas/laminas-coding-standard": "~1.0.0",
+        "laminas/laminas-pimple-config": "^1.1",
+        "laminas/laminas-servicemanager": "^3.3.2",
+        "phpunit/phpunit": "^7.5.15 || ^8.3.4"
+    },
+    "autoload": {
+        "files": [
+            "src/TestAsset/function-factory.php",
+            "src/TestAsset/function-factory-with-name.php",
+            "src/TestAsset/function-factory.legacy.php",
+            "src/TestAsset/function-factory-with-name.legacy.php"
+        ],
+        "psr-4": {
+            "Laminas\\ContainerConfigTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaminasTest\\ContainerConfigTest\\": "test/"
+        }
+    },
+    "scripts": {
+        "check": [
+            "@cs-check",
+            "@test"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit --colors=always",
+        "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+    },
+    "replace": {
+        "zendframework/zend-container-config-test": "self.version"
+    }
+}

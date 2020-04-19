@@ -1,0 +1,6 @@
+﻿
+【layuiAdmin 套餐版】
+
+内含：
+> pro: 单页版
+> std：iframe版

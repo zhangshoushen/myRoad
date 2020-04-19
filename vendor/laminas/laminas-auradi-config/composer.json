@@ -1,0 +1,66 @@
+{
+    "name": "laminas/laminas-auradi-config",
+    "description": "PSR-11 Aura.DI container configurator for Laminas and Mezzio applications",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "laminas",
+        "mezzio",
+        "aura di",
+        "container",
+        "psr-11"
+    ],
+    "homepage": "https://laminas.dev",
+    "support": {
+        "docs": "https://docs.laminas.dev/laminas-auradi-config/",
+        "issues": "https://github.com/laminas/laminas-auradi-config/issues",
+        "source": "https://github.com/laminas/laminas-auradi-config",
+        "rss": "https://github.com/laminas/laminas-auradi-config/releases.atom",
+        "chat": "https://laminas.dev/chat",
+        "forum": "https://discourse.laminas.dev"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev",
+            "dev-develop": "1.1.x-dev"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "aura/di": "^3.4",
+        "laminas/laminas-zendframework-bridge": "^1.0"
+    },
+    "require-dev": {
+        "laminas/laminas-coding-standard": "~1.0.0",
+        "laminas/laminas-container-config-test": "^0.2 || ^1.0",
+        "phpunit/phpunit": "^7.1.2"
+    },
+    "conflict": {
+        "container-interop/container-interop": "<1.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laminas\\AuraDi\\Config\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaminasTest\\AuraDi\\Config\\": "test/"
+        }
+    },
+    "scripts": {
+        "check": [
+            "@cs-check",
+            "@test"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit --colors=always",
+        "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+    },
+    "replace": {
+        "zendframework/zend-auradi-config": "self.version"
+    }
+}
